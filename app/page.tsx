@@ -45,6 +45,7 @@ export default async function Home() {
               { href: '/products', label: 'Our Products' },
               { href: '/team', label: 'Our Team' },
               { href: '#gallery', label: 'Gallery' },
+              { href: '/alumni', label: 'Our Alumni' },
               { href: '/contact', label: 'Contact Us' },
               { href: '/login', label: 'Login' },
             ]}
@@ -57,6 +58,7 @@ export default async function Home() {
             <Link href="/products" className="min-w-[140px] cursor-pointer inline-block text-center text-[16px] py-4 text-white border-r-2 border-r-amber-50 transition-colors duration-200 hover:text-white hover:bg-red-500">Our Products</Link>
             <Link href="/team" className="min-w-[140px] cursor-pointer inline-block text-center text-[16px] py-4 text-white border-r-2 border-r-amber-50 transition-colors duration-200 hover:text-white hover:bg-red-500">Our Team</Link>
             <Link href="#gallery" className="min-w-[140px] cursor-pointer inline-block text-center text-[16px] py-4 text-white border-r-2 border-r-amber-50 transition-colors duration-200 hover:text-white hover:bg-red-500">Gallery</Link>
+            <Link href="/alumni" className="min-w-[140px] cursor-pointer inline-block text-center text-[16px] py-4 text-white border-r-2 border-r-amber-50 transition-colors duration-200 hover:text-white hover:bg-red-500">Our Alumni</Link>
             <Link href="/contacts" className="min-w-[140px] cursor-pointer inline-block text-center text-[16px] py-4 text-white border-r-2 border-r-amber-50 transition-colors duration-200 hover:text-white hover:bg-red-500">Contact Us</Link>
             <Link href="/login" className="min-w-[140px] cursor-pointer inline-block text-center text-[16px] py-4 text-white border-r-2 border-r-amber-50 transition-colors duration-200 hover:text-white hover:bg-red-500">Login</Link>
           </nav>

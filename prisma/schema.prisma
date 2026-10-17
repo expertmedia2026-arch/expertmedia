@@ -244,6 +244,23 @@ model Product {
   @@index([featured])
 }
 
+model Alumni {
+  id             String   @id @default(cuid())
+  name           String
+  program        String
+  graduationYear Int
+  imageUrl       String?
+  currentRole    String?
+  bio            String?
+  linkedInUrl    String?
+  githubUrl      String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@index([graduationYear])
+  @@index([program])
+}
+
 enum PaymentStatus {
   PENDING
   SUCCESS

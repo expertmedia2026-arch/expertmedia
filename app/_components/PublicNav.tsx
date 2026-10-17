@@ -14,6 +14,7 @@ const NAV_ITEMS = [
   { href: '/products', label: 'Products' },
   { href: '/team', label: 'Our Team' },
   { href: '/gallery', label: 'Gallery' },
+  { href: '/alumni', label: 'Our Alumni' },
   { href: '/contacts', label: 'Contact Us' },
 ] as const;
 
